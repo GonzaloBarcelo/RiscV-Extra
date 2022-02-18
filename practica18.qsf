@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 02:20:14  May 03, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		practica18_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C20F484C8
+set_global_assignment -name TOP_LEVEL_ENTITY practica18
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "02:20:14  MAY 03, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/unbit.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/selector.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/rutadatos.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/registroSP.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/RegistroPP.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/registro64bits.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/Receptor.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/practica14b.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/Practica14.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/practica12.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/Multiplexor.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/ms1.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/medioBit.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/detector_de_flanco.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/DecodDisp.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/controlEN.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/contador9bits.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/contador9bit.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/Contador8.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/comparador.vhd
+set_global_assignment -name VHDL_FILE ../Quartus14Extra/AsciiA16Seg.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/sumador1bit.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/sumador_restadornbits.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/RutaDatos.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/ROM.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/RISCV.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/RAMJD.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/RAM8.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/RAM.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/Puente.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/Procesador.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/Practica17.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/Multiplex.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/GenInm.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/DesplIzq.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/DesplDerArit.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/DesplDer.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/CompMayorMenor.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/BiestD32.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/BiestD8.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/BancoReg.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/Alu.vhd
+set_global_assignment -name VHDL_FILE ../Quartus17/practica18.vhd
+set_global_assignment -name VHDL_FILE practica18.vhd
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_L1 -to clk
+set_location_assignment PIN_H12 -to display0
+set_location_assignment PIN_H13 -to display1
+set_location_assignment PIN_H14 -to display2
+set_location_assignment PIN_G15 -to display3
+set_location_assignment PIN_E14 -to display4
+set_location_assignment PIN_E15 -to display5
+set_location_assignment PIN_F15 -to display6
+set_location_assignment PIN_G16 -to display7
+set_location_assignment PIN_F14 -to e_s
+set_location_assignment PIN_T21 -to reset_n
+set_location_assignment PIN_G20 -to s_p[16]
+set_location_assignment PIN_E18 -to s_p[15]
+set_location_assignment PIN_E19 -to s_p[14]
+set_location_assignment PIN_F20 -to s_p[13]
+set_location_assignment PIN_E20 -to s_p[12]
+set_location_assignment PIN_D20 -to s_p[11]
+set_location_assignment PIN_D19 -to s_p[10]
+set_location_assignment PIN_C20 -to s_p[9]
+set_location_assignment PIN_C19 -to s_p[8]
+set_location_assignment PIN_C18 -to s_p[7]
+set_location_assignment PIN_C17 -to s_p[6]
+set_location_assignment PIN_D16 -to s_p[5]
+set_location_assignment PIN_D15 -to s_p[4]
+set_location_assignment PIN_D14 -to s_p[3]
+set_location_assignment PIN_C14 -to s_p[2]
+set_location_assignment PIN_F13 -to s_p[1]
+set_location_assignment PIN_F12 -to s_p[0]
+set_global_assignment -name VHDL_FILE BiestD8_r.vhd
+set_global_assignment -name VHDL_FILE BiestD8_s.vhd
+set_global_assignment -name VHDL_FILE Controlador_pep.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
