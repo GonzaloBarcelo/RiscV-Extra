@@ -14,12 +14,5 @@ p_s: in std_logic;
 	display4: out std_logic;
 	display5: out std_logic;
 	display6: out std_logic;
-	display7: out std_logic
+	display7: out std_logic;
 );
-end practica18;
-architecture structural of practica18 is
-signal entrada_p,salida_p: std_logic_vector(7 downto 0);
-begin 
-
-
-end structural;
